@@ -8,6 +8,7 @@ weatherForm.addEventListener('submit', (e) => {
 
     const location = search.value;
 
+    //pushing to browser.
     messageOne.textContent = 'Processing...';
     messageTwo.textContent = '';
 
